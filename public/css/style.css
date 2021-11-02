@@ -1,18 +1,57 @@
 
 body{
-    background: linear-gradient(3deg, rgb(63, 26, 26) 1%, transparent);
+    background: linear-gradient(3deg, transparent, rgb(233, 233, 233) 1%);
+}
+
+.navbar{
+  padding: 0%;
+  margin: 0%;
 }
 
 .bodydiv {
     display: flexbox;
     flex-wrap: wrap;
-    padding: 8%;
-    margin: 1%;
-    border-style:none;
+    padding: 0%;
+    margin: 0%;
+    border-style:solid;
     border-width: 2px;
     border-radius: 2%;
     background-image: url("../images/bg_food1.png");
-    background-size: 100% 100%
+    background-size: 100% 120%
+  }
+
+  .maindiv {
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 12%;
+    padding-top: 13%;
+    padding-bottom: 14%;
+    margin: 0%;
+    border-style:hidden;
+    border-width: 2px;
+    border-radius: 2%;
+  }
+
+  .inputdiv {
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+    border-style:hidden;
+    border-width: 2px;
+    border-radius: 2%;
+  }
+
+  .apidiv {
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 12%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: 0%;
+    border-style:hidden;
+    border-width: 2px;
+    border-radius: 2%;
   }
 
 
@@ -25,18 +64,33 @@ body{
     border-style: none;
     border-width: 2px;
     border-radius: 4%;
-
     font-size: 32px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Segoe Print, 'Arial Narrow', Arial, sans-serif;
     color:rgb(253, 242, 242);
     text-shadow: 1.75px 1.75px 1px #000000;
     background: linear-gradient(3deg, rgb(224, 104, 56) 0%, rgb(223, 177, 177) 1%, transparent);
-    box-shadow:  0px 3px 7px 7px rgb(36, 36, 36);
+    box-shadow:  0px 2px 6px 6px rgb(36, 36, 36);
     width: 25%;
     height: 100%;
     font-display: auto;
     align-content: center;
   }
+
+  .allergens{
+    box-shadow:  0px 0px 0px 0px rgb(36, 36, 36);
+    background: transparent;
+    padding-top: 0.75%;
+    margin-top: 0%;
+  }
+
+  .allergies{
+    font-size: 25px;
+  }
+
+  .drop{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+  }
+
 
   .card a{
     color:rgb(253, 242, 242);
