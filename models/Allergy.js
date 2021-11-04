@@ -8,7 +8,7 @@ Allergy.init(
     name: {
       type: DataTypes.STRING,
       allowNull: true,
-      primaryKey: true,
+      // primaryKey: true,
     },
     user_id: {
       type: DataTypes.INTEGER,
